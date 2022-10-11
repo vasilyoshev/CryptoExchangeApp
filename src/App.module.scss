@@ -1,4 +1,23 @@
 .paperRoot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
   margin: 15px;
   padding: 15px;
+}
+
+.selectedPairTitle {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.tableContainer {
+  max-width: 500px;
+}
+
+.headTableRow {
+  & th {
+    font-weight: bold;
+  }
 }
